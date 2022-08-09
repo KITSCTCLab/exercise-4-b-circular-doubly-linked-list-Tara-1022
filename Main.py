@@ -13,3 +13,4 @@ while len(actual_list) < length_of_circular_linked_list and index < len(circular
 
 for element in actual_list:
     print(element, end = " ")
+print()
