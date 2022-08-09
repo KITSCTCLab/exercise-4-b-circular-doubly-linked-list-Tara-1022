@@ -5,9 +5,11 @@ circular_linked_list = list(map(int,input().strip().split(" ")))
 # Write your code here
 actual_list = []
 index = 0
-while len(actual_list) < length_of_circular_linked_list:
+while len(actual_list) < length_of_circular_linked_list and index < len(circular_linked_list):
     element = circular_linked_list[index]
     if element not in actual_list:
         actual_list.append(element)
     index += 1
-print(actual_list)
+
+for element in actual_list:
+    print(element, end = " ")
