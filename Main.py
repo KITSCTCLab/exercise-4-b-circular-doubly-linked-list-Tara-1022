@@ -3,7 +3,7 @@ length_of_circular_linked_list = int(input())
 # Read space-separated integers that denote the elements of the listT which is returned as the output of the algorithm
 circular_linked_list = list(map(int,input().strip().split(" ")))
 
-# Write your code here
+# Write your code heree
 actual_list = []
 index = 0
 while len(actual_list) < length_of_circular_linked_list and index < len(circular_linked_list):
