@@ -5,6 +5,7 @@ circular_linked_list = list(map(int,input().strip().split(" ")))
 
 # Write your code here
 actual_list = []
+#a variable to iterate through the given lisT
 index = 0
 while len(actual_list) < length_of_circular_linked_list and index < len(circular_linked_list):
     element = circular_linked_list[index]
